@@ -1,11 +1,12 @@
-theme = "onedark"
+theme = "dracula"
 [editor]
-line-number = "relative"
+line-number = "absolute"
 true-color = true
 bufferline = "always"
 color-modes = true
 insert-final-newline = false
 auto-pairs = false
+completion-timeout=5
 [editor.statusline]
 left = ["mode", "spinner"]
 center = ["file-name"]
@@ -21,3 +22,5 @@ display-inlay-hints = true
 hidden = false
 [editor.whitespace]
 render = "all"
+[editor.indent-guides]
+render = true
