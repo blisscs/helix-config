@@ -1,4 +1,4 @@
-theme = "dracula_at_night"
+theme = "cyan_light"
 [editor]
 line-number = "absolute"
 true-color = true
@@ -21,6 +21,8 @@ display-inlay-hints = true
 [editor.file-picker]
 hidden = false
 [editor.whitespace]
-render = "all"
+# render = "all"
 [editor.indent-guides]
 render = true
+[editor.gutters]
+layout = ["diff", "diagnostics", "line-numbers", "spacer"]
